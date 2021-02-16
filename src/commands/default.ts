@@ -2,10 +2,12 @@ import chalk from 'chalk';
 import figlet from 'figlet';
 import shell from 'shelljs';
 
+import log from 'lib/log';
+
 const handler = () => {
-	console.log(chalk.keyword('orange').bold(figlet.textSync('Fox git cli', {})));
-	console.log(`\nDocs: ${chalk.blueBright.bold('https://github.com/sergiogc9/git-fox-cli')}\n`);
-	shell.exec('gitfox --help');
+	log.text(figlet.textSync('Fox git cli', {}), chalk.keyword('orange').bold);
+	log.text(`\nDocs: ${chalk.blueBright.bold('https://github.com/sergiogc9/fox-git-cli')}\n`);
+	shell.exec('foxgit --help');
 };
 
 export default handler;

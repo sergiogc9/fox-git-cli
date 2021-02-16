@@ -1,10 +1,16 @@
+# fox-git-cli
+
+![](https://badgen.net/npm/v/fox-git-cli?icon=npm&label)
+![](https://github.com/sergiogc9/fox-git-cli/workflows/Github%20Pipeline/badge.svg?branch=master)
+
 A git command line tool to improve the git workflow.
 
-- [About the cli](#about-the-cli)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [help](#help)
-  - [`branch-sync`](#branch-sync)
+- [fox-git-cli](#fox-git-cli)
+  - [About the cli](#about-the-cli)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [help](#help)
+    - [`branch-sync`](#branch-sync)
 
 ## About the cli
 
@@ -17,6 +23,8 @@ It works only in a basic **gitflow** workflow with the following branches:
 - `feature/XXX` or `feature-XXX`
 
 \* In the future this will be configurable.
+
+This cli is part of a set of personal cli tools named as [fox-awesome-cli](https://github.com/sergiogc9/fox-awesome-cli) also developed by myself.
 
 ## Installation
 
@@ -32,17 +40,17 @@ Or install locally:
 
 ## Usage
 
-This cli tool can be used with some aliases: `gitfox`, `gfox`, `gf` and `fgit`. You can choose the one you prefer.
+This cli tool can be used with some aliases: `foxgit`, `foxg`, `fgit` and `fg`. You can choose the one you prefer.
 
 The usage is:
 
-`gitfox <command> [options]`
+`foxgit <command> [options]`
 
 #### help
 
 You can see some information and the available commands using the help option or not using any command:
 
-`gitfox` or `gitfox -h`
+`foxgit` or `foxgit -h`
 
 #### `branch-sync`
 
@@ -57,4 +65,4 @@ Basically this command performs:
 
 For further options docs:
 
-`gitfox branch-sync -h`
+`foxgit branch-sync -h`

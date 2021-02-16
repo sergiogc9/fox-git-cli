@@ -2,7 +2,7 @@
 	"name": "fox-git-cli",
 	"version": "0.0.0",
 	"description": "Git flow command line tool",
-	"repository": "git://github.com/sergiogc9/git-fox-cli.git",
+	"repository": "git://github.com/sergiogc9/fox-git-cli.git",
 	"author": "Sergio Gómez Cosgaya (sergiogcosgaya@gmail.com)",
 	"files": [
 		"bin",
@@ -10,10 +10,10 @@
 	],
 	"main": "dist/cli.js",
 	"bin": {
-		"gitfox": "bin/cli",
-		"gfox": "bin/cli",
-		"gf": "bin/cli",
-		"fgit": "bin/cli"
+		"foxgit": "bin/cli",
+		"foxg": "bin/cli",
+		"fgit": "bin/cli",
+		"fg": "bin/cli"
 	},
 	"publishConfig": {
 		"access": "public"
@@ -29,7 +29,7 @@
 		"prettier": "prettier --write . --ignore-path .gitignore",
 		"prettier:check": "prettier --check . --ignore-path .gitignore",
 		"lint": "eslint . --ignore-path .gitignore",
-		"gitfox": "gitfox"
+		"foxgit": "foxgit"
 	},
 	"dependencies": {
 		"chalk": "4.1.0",
