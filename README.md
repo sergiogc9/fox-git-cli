@@ -5,6 +5,8 @@
 
 A git command line tool to improve the git workflow.
 
+⚠️ _DEPRECATED:_ this cli tool has been merged with other cli tools in [fox-awesome-cli](https://www.npmjs.com/package/fox-awesome-cli). Use that one instead.
+
 - [fox-git-cli](#fox-git-cli)
   - [About the cli](#about-the-cli)
   - [Installation](#installation)

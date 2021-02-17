@@ -29,7 +29,7 @@
 		"prettier": "prettier --write . --ignore-path .gitignore",
 		"prettier:check": "prettier --check . --ignore-path .gitignore",
 		"lint": "eslint . --ignore-path .gitignore",
-		"foxgit": "foxgit"
+		"foxgit": "node dist/cli.js"
 	},
 	"dependencies": {
 		"chalk": "4.1.0",
